@@ -1,7 +1,7 @@
 package global
 
 @Singleton
-class GlobalClass implements Serializable {
+class GlobalSingleton implements Serializable {
 	int counter = 0
 	
 	int getCounter() {
